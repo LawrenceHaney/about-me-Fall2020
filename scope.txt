@@ -1,0 +1,2 @@
+Create a new project, add your name, 3 fun facts about you, at least 3 css attributes and 1 image
+push to github and send me the live link

@@ -1,0 +1,15 @@
+:root{
+  --shadow: 3px 0 5px rgb(0, 0, 0);
+}
+
+
+.card{
+  background-color: antiquewhite;
+  padding: 1em;
+  box-shadow: var(--shadow);
+  margin: 1em;
+}
+
+.text-cang{
+  font: Long Cang;
+}
