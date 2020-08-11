@@ -1,15 +1,19 @@
 :root{
   --shadow: 3px 0 5px rgb(0, 0, 0);
-  
-
+  --dark: rgb(0, 0, 0);
+  --light: rgb(255, 255, 255);
+}
+header{
+  height: 9em;
+  background-color: var(--dark);
 }
 
 .container{
   padding: 1em;
-  box-shadow: var(--shadow);
   margin: 1em;
   flex-wrap: wrap;
 }
+
 .card{
   background-color: rgb(255, 255, 255);
   padding: .5em;
@@ -18,17 +22,22 @@
 }
 
 .card-inner{
-  background-color: rgba(70, 56, 155, 0.575);
+  background-color: rgba(112, 106, 94, 0.521);
   padding: .5em;
   box-shadow: var(--shadow);
   margin: .5em;
 }
-
+.text-light{
+  color: var(--light)
+}
 .text-hand{
   font-family: Long Cang;
   font-size: larger;
 }
-
+.text-dis{
+  font-family: Righteous;
+  font-size: large;
+}
 .card-img{
   padding: 1em;
   box-shadow: var(--shadow);
@@ -43,4 +52,24 @@
 
   .d-flex-shrink{
     flex-shrink: 1;
+  }
+
+  .flex-wrap{
+    flex-wrap: wrap;
+  }
+
+  .space-between{
+    justify-content: space-between;
+  }
+
+  .space-around{
+    justify-content: space-around;
+  }
+  
+  .center{
+    justify-content: center;
+  }
+
+  .p1{
+    padding: 1em;
   }
