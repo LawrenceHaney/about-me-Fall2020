@@ -4,12 +4,20 @@
 
 
 .card{
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
   padding: 1em;
   box-shadow: var(--shadow);
   margin: 1em;
 }
 
+.card-inner{
+  background-color: rgba(70, 56, 155, 0.575);
+  padding: .5em;
+  box-shadow: var(--shadow);
+  margin: .5em;
+}
+
 .text-hand{
   font-family: Long Cang;
+  font-size: larger;
 }
