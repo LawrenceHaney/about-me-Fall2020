@@ -1,5 +1,7 @@
 :root{
   --shadow: 3px 0 5px rgb(0, 0, 0);
+  
+
 }
 
 
@@ -20,4 +22,13 @@
 .text-hand{
   font-family: Long Cang;
   font-size: larger;
+}
+
+.card-img{
+  padding: 1em;
+  box-shadow: var(--shadow);
+  margin: 1em;
+  background-image: url("coins.jpg");
+  
+
 }
